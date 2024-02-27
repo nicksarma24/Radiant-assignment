@@ -12,12 +12,6 @@ hr {
 }
 
 
-/* hr:last-of-type{
-    margin-bottom: 20px;
-} */
-
-
-/* start of menu */
 
 .menu {
     padding: 10px 0;
@@ -47,10 +41,6 @@ hr {
 }
 
 
-/* end of menu */
-
-
-/* start of typeMenu */
 
 .typeMenu {
     display: flex;
@@ -67,23 +57,12 @@ hr {
     border-radius: 8px;
 }
 
-
-/* end of typeMenu */
-
-
-/* start of pathMenu */
-
 .pathMenu {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-
-/* end of pathMenu */
-
-
-/* start of cardClass */
 
 .cardContainer {
     margin: 40px 0;
@@ -119,7 +98,7 @@ hr {
 .bestTagContainerClass {
     position: absolute;
     top: -5%;
-    background-color: orange;
+    background-color: rgb(240, 166, 29);
     padding: 3px;
     border-radius: 0 8px 8px 0;
 }
@@ -161,7 +140,7 @@ hr {
 .ratingContainerClass {
     width: 50%;
     text-align: center;
-    background-color: rgba(135, 207, 235, 0.293);
+    background-color: rgba(191, 231, 247, 0.293);
     padding: 0 5px 5px;
     border-radius: 0 0 8px 8px;
 }
@@ -189,8 +168,6 @@ hr {
 }
 
 
-/* 4th card */
-
 .discountContainerClass {
     display: inline-block;
     padding: 4px;
@@ -200,7 +177,7 @@ hr {
 }
 
 .highlightsClass4 {
-    background-color: rgba(232, 165, 41, 0.484);
+    background-color: rgba(245, 201, 119, 0.484);
     border-radius: 8px;
     padding: 10px;
 }
@@ -235,8 +212,6 @@ hr {
 }
 
 
-/* end of cardClass */
-
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .body {
         width: 100%;
@@ -262,8 +237,7 @@ hr {
         width: 100%;
         display: flex;
         flex-direction: column;
-        /* align-items: center;
-        justify-content: center; */
+        
     }
     .cardImageClass img {
         width: 70%;
